@@ -1,10 +1,9 @@
 {
   "name": "Bright_Flowers",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d bright_flowers"
+    "deploy": "gh-pages -d Portfolio"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +11,13 @@
   "homepage": "https://jibzo.github.io/bright_flowers",
   "dependencies": {
     "gh-pages": "^2.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jibzo/brightFlowers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jibzo/brightFlowers/issues"
+  },
+  "description": ""
 }
