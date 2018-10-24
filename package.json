@@ -1,0 +1,16 @@
+{
+  "name": "Bright_Flowers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d bright_flowers"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://jibzo.github.io/bright_flowers",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
