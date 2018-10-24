@@ -1,223 +1,272 @@
-/*jj228 20/02/2018*/
-@import url(https://fonts.googleapis.com/css?family=Lato);
+/*jj228 20/02/2018*/@import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-body {
-    padding-top: 54px;
-}
-@media (min-width: 992px) {
-    body {
-    padding-top: 56px;
-}
+
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
-body {
-    font-family: 'Lato', sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-body {
-    background: #3478A2;
-    background: -webkit-linear-gradient(to right, #23A382, #3478A2);
-    background: linear-gradient(to right, #ccb9a3, #dcd6ca);
-}
-header div h1 {
-    color: white;
-    font-size: 80px;
-    text-shadow: 0px 0px 15px yellow;
-}
-header div h2 {
-    color: #ffffff;
-    text-shadow: 0 0 3px #ffffff;
-}
-h2 {
-    color: #212529;
-}
-h3 {
-    color: white;
-}
-h4 {
-    color: white;
-}
-h5 {
-    text-align: center;
-    color: white;
-}
-p {
-    color: white;
-}
+
 blockquote {
     color: white;
-    font-family: "Times New Roman"}
-li {
+    font-family: "Times New Roman";
+  }
+  li {
     color: white;
-    font-family: "Times New Roman"}
-address {
-    color: #424242;
-}
-* {
-    box-sizing: border-box;
-}
+    font-family: "Times New Roman";
+  }
 .column {
     float: left;
     width: 50%;
     padding: 10px;
+  }
+body {
+  padding-top: 54px;
 }
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-@media (max-width: 600px) {
-    .column {
-    width: 100%;
-}
+
+#logo {
+  padding-right: 20px;
+  max-height: 45px;
 }
 #map {
     border: white solid 10px;
     margin: 10px;
     width: 50%;
     height: auto;
-}
-#logo {
-    padding-right: 20px;
-    max-height: 45px;
-}
+  }
+
 #flower-about {
-    width: 100%;
-    height: auto;
-    border: white solid 10px;
-    margin-top: 50px;
+  width: 100%;
+  height: auto;
+  border: white solid 10px;
+  margin-top: 50px;
 }
-.btn-primary {
-    background: #393B3F;
-    border: transparent;
+body {
+  background: #3478a2;
+  background: -webkit-linear-gradient(to right, #23a382, #3478a2);
+  background: linear-gradient(to right, #ccb9a3, #dcd6ca);
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
-.btn-primary:hover {
-    background-color: #A18773;
-}
-.btn {
-    font-weight: 600;
-}
-
-.btn:hover {
-    text-decoration: none;
-    background-color: #dad2c5;
-}
-
-.btn:not(:disabled):not(.disabled):active {
-    background-image: none;
-    background-color: white;
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  background: url("../images/bouqet.jpg") center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .card {
-    background-color: #C55E7E;
+  background-color: #c55e7e;
 }
-.business-header {
-    height: 50vh;
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-    background: url("../images/bouqet.jpg") center center no-repeat scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
+header div h1 {
+  color: white;
+  font-size: 80px;
+  text-shadow: 0px 0px 15px yellow;
 }
-.py-5 {
-    width: 100%;
-    height: 150px;
-    position: bottom;
-    bottom: 0;
-    left: 0;
-    margin-top: 60px;
+header div h2 {
+  color: #ffffff;
+  text-shadow: 0 0 3px #ffffff;
 }
- .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+
+h2 {
+  color: #212529;
 }
-.fa:hover {
-    opacity: 0.7;
+h3,
+h4,
+p {
+  color: white;
 }
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+
+h5 {
+  text-align: center;
+  color: white;
 }
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-a {
-    text-decoration: none;
-    color: #fff;
-}
-p > a:hover {
-    color: #d9d9d9;
-    text-decoration: underline;
-}
+
 .footer-social-icons {
-    width: 100%;
-    display: block;
-    margin: auto;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 .social-icon {
-    color: #fff;
+  color: #fff;
 }
 ul.social-icons {
-    margin-left: 380px;
-    vertical-align: middle;
-    margin: 0;
-    top: 50%;
-    left: 50%;
+  margin-left: 380px;
+  vertical-align: middle;
+  margin: 0;
+  top: 50%;
+  left: 50%;
 }
 .social-icons li {
-    display: inline;
-    height: 100px;
+  display: inline;
+  height: 100px;
 }
 .social-icons a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .fa-facebook {
-    padding: 10px 14px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    background-color: #322f30;
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
 }
 .fa-facebook:hover {
-    background-color: #3d5b99;
+  background-color: #3d5b99;
 }
 .fa-twitter {
-    padding: 10px 12px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    background-color: #322f30;
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
 }
 .fa-twitter:hover {
-    background-color: #00aced;
+  background-color: #00aced;
 }
 .fa-google-plus {
-    padding: 10px 9px;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    background-color: #322f30;
+  padding: 10px 9px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
 }
 .fa-google-plus:hover {
-    background-color: #e25714;
+  background-color: #e25714;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+/* bigger screens */
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+  address {
+    color: #424242;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+  /* // for smaller screens */
+
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+     
+display: flex; 
+flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+address {
+    text-align: center;
+}
+
+img {
+    align-self: center;
+}
+.social-icons {
+    align-self: center;
+    align-content: center;
+}
+pre {
+    align-self: center;
+}
+
+text {
+    align-content: center;
+}
+    #flower-about {
+      border: white solid 10px;
+      margin-top: 10px;
+    }
+
+    #map {
+      border: white solid 10px;
+      margin: 10px;
+      width: 50%;
+      height: auto;
+    }
+    .btn-primary {
+      background: #393b3f;
+      border: transparent;
+    }
+    .btn-primary:hover {
+      background-color: #a18773;
+    }
+    .btn {
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      text-decoration: none;
+      background-color: #dad2c5;
+    }
+
+    .btn:not(:disabled):not(.disabled):active {
+      background-image: none;
+      background-color: white;
+    }
+
+    .py-5 {
+      width: 100%;
+      height: 150px;
+      position: bottom;
+      bottom: 0;
+      left: 0;
+      margin-top: 60px;
+    }
+  }
